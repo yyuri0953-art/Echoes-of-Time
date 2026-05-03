@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Museum | Philippine Art Exhibit</title>
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Echoes of Time</h1>
+    <p>Documenting Philippine Art & Cultural Heritage</p>
+</header>
+
+<div class="container">
+    <section class="statement">
+        <h2>Curatorial Statement</h2>
+        <p>This digital exhibit features Spoliarium by Juan Luna, a powerful artwork that reflects themes of struggle, loss, and human dignity. The piece was carefully selected because of its historical importance and its ability to communicate deep emotions through visual storytelling.</p>
+        <p>In this exhibit, we aim to present not only the artistic beauty of Spoliarium but also its deeper meaning and relevance. By exploring this work, viewers are encouraged to reflect on history, human experience, and how art can express powerful messages beyond what is seen.</p>
+    </section>
+
+    <div class="gallery-grid">
+        <!-- Artwork 1 -->
+        <div class="art-card" onclick="openModal('art1')">
+            <img src="Spoliariumm.jpg" alt="SPOLIARIUM">
+            <h3>SPOLIARIUM</h3>
+            <p><em>Juan Luna</em></p>
+            <p class="click-hint">Click to View Analysis</p>
+        </div>
+
+        <!-- Artwork 2 -->
+        <div class="art-card" onclick="openModal('art2')">
+            <img src="GOL AT TELON KUNEF.jpg" alt="GOL AT TELON KUNEF">
+            <h3>GOL AT TELON KUNEF</h3>
+            <p><em>Bernard Cadaguag</em></p>
+            <p class="click-hint">Click to View Analysis</p>
+        </div>
+
+        <!-- Artwork 3 -->
+        <div class="art-card" onclick="openModal('art3')">
+            <img src="NA VICTORIO EDADES.jpg" alt="NA VICTORIO EDADES">
+            <h3>NA VICTORIO EDADES</h3>
+            <p><em>Danilo Santiago</em></p>
+            <p class="click-hint">Click to View Analysis</p>
+        </div>
+
+        <!-- Artwork 4 -->
+        <div class="art-card" onclick="openModal('art4')">
+            <img src="Human trophy.jpg" alt="HUMAN TROPHY">
+            <h3>HUMAN TROPHY</h3>
+            <p><em> Ace Navarro</em></p>
+            <p class="click-hint">Click to View Analysis</p>
+        </div>
+
+        <!-- Artwork 5 -->
+        <div class="art-card" onclick="openModal('art5')">
+            <img src="DIWATAA.jpg" alt="DIWATA">
+            <h3>DIWATA</h3>
+            <p><em>Guillermo Estrella Tolentino</em></p>
+            <p class="click-hint">Click to View Analysis</p>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="artModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
+
+<footer>
+    <p>ART 002 | P3 Performance Task Exam</p>
+    <p>Prepared by: ANGANANGAN, SHEKAINA ATHENESA |
+DIBANSA, NABIL |
+EVANGELISTA, BRITTANY ROSE |
+GUTIERREZ, ARA JANE |
+MISLANG, ANICA GEN |
+ONIA, JADE LAWRENCE |
+PACANAS, HAZEL |
+SORIANO, LENICA |
+TEOLOGO, GENALYN</p>
+</footer>
+
+<!-- Linking the JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
